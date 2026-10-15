@@ -1,0 +1,8 @@
+prefix=/home/pi/lebenita_crocodil_carte_ciocolata/devel
+
+Name: celmaitarepackage
+Description: Description of celmaitarepackage
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

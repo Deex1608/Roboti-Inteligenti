@@ -1,0 +1,2 @@
+celmaitarepackage
+-DCATKIN_DEVEL_PREFIX=/home/pi/lebenita_crocodil_carte_ciocolata/devel -DCMAKE_INSTALL_PREFIX=/home/pi/lebenita_crocodil_carte_ciocolata/install -G Unix Makefiles
