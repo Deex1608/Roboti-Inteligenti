@@ -9,6 +9,8 @@ keys_we_love = {
     'a': "left",
     's': "down",
     'd': "right",
+    'q': "look_up",
+    'e': "look_down",
     'Key.up': "up",
     'Key.down': "down",
     'Key.left': "left",
@@ -27,8 +29,7 @@ def on_press(key):
     if char in keys_we_love:
         message = keys_we_love[char]
         client_socket.sendall((message + "\n").encode())
-        received_message = client_socket.recv(1024)
-        print(received_message.decode('utf-8'))
+
 
 
 def on_release(key):
